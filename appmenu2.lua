@@ -1,4 +1,4 @@
--- hs.chooser-versie in aangepaste stijl
+-- hs.chooser application starter
 
 local chooser = nil
 local menuElementMap = {}
@@ -103,7 +103,7 @@ hs.hotkey.bind({"ctrl", "alt", "cmd", "shift"}, "tab", function()
     end)
 end)
 
--- URL handler voor Sketchybar of andere externe triggers
+-- URL handler 
 hs.urlevent.bind("showAppMenu", function()
     hs.timer.doAfter(0.1, function()
         showMenuChooser()
