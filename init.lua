@@ -25,7 +25,7 @@ hs.hotkey.bind({"ctrl", "alt", "shift", "cmd"}, "k", function()
     hs.application.launchOrFocus("Kitty")
 end)
 
-require('applauncher')
-require('appmenu2')
-require('switcher')
-require('aerospace')
+require('applauncher')     --see applauncher.lua
+require('appmenu2')        --see appmenu2.lua 
+require('switcher')        --see switcher.lua
+require('aerospace')       --see aerospace.lua
