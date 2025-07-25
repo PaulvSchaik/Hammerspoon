@@ -1,4 +1,5 @@
--- hs.chooser application starter
+-- hs.chooser application menu search
+-- displays the menu from the active application
 
 local chooser = nil
 local menuElementMap = {}
