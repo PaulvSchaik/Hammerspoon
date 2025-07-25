@@ -1,5 +1,4 @@
--- hs.chooser menu met Aerospace sneltoetsen
-
+-- hs.chooser menu to display all Aerospace configured key-binds
 local chooser = nil
 
 local style = {
@@ -83,7 +82,7 @@ function getAerospaceShortcuts()
     task:start()
 end
 
--- Cmd + ; opent het menu
+-- Cmd + ; opens the menu
 hs.hotkey.bind({ "cmd" }, ";", function()
     hs.timer.doAfter(0.1, function()
         getAerospaceShortcuts()
