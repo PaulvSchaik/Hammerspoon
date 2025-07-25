@@ -1,4 +1,4 @@
--- hs.chooser Aerospace vensterswitcher in aangepaste stijl
+-- hs.chooser Aerospace windowswitcher
 
 local chooser = nil
 
@@ -7,7 +7,7 @@ local style = {
     color = { red = 0.471, green = 0.663, blue = 1, alpha = 1 }
 }
 
--- Gebruik Aerospace om vensters op te halen
+-- use Aerospace to get the open windows
 function getAerospaceWindows()
     local items = {}
 
