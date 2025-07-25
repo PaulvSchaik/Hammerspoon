@@ -1,4 +1,4 @@
--- hs.chooser applicatie launcher in aangepaste stijl
+-- hs.chooser application launcher
 
 local chooser = nil
 
@@ -7,7 +7,7 @@ local style = {
     color = { red = 0.471, green = 0.663, blue = 1, alpha = 1 }
 }
 
--- Ophalen van alle apps in /Applications en ~/Applications, met iconen
+-- Get applications from /Applications and ~/Applications, with icons
 function getInstalledApps()
     local items = {}
     local paths = { "/Applications", os.getenv("HOME") .. "/Applications" }
